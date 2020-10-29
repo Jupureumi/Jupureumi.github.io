@@ -34,19 +34,54 @@ body {
   padding-top: 40px;
 }
 
-.Character_1 {
+.media {
   text-align: left;
   padding-top: 190px;
   padding-left: 200px;
-  color: #293660;
+  font-size: 45px;
+  color: #242B47;
   font-family: : 'NanumSquare_ac';
-}
-
-.profile {
-
 }
 
 .Character_1 strong {
   font-size: 45px;
   color: #242B47;
+}
+
+.media-body span {
+  font-size: 28px;
+  color: #293660;
+  line-height: 15px;
+}
+
+.media-body {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.text {
+  padding-left: 600px;
+  font-size: 20px;
+  color: #353535;
+  line-height: 15px;
+}
+
+.text strong {
+  font-size: 25px;
+  color: #242B47;
+  line-height: 15px;
+}
+
+.text2 {
+  padding-left: 600px;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #353535;
+  line-height: 15px;
+}
+
+.text2 strong {
+  font-size: 25px;
+  color: #242B47;
+  line-height: 15px;
 }
