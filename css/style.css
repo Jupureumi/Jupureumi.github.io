@@ -31,4 +31,19 @@ body {
 
 .wave {
   text-align: center;
+  padding-top: 40px;
+}
+
+.Character_1 {
+  text-align: left;
+  padding-top: 190px;
+  padding-left: 200px;
+}
+
+.profile {
+  color: #242B47;
+  font-family: : 'NanumSquare_acEB';
+  text-align: left;
+  padding-top: ;
+  padding-left: 550px;
 }
