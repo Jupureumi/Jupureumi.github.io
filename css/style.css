@@ -38,12 +38,11 @@ body {
   text-align: left;
   padding-top: 190px;
   padding-left: 200px;
+  color: #293660;
+  font-family: : 'NanumSquare_ac';
 }
 
-.profile {
+.Character_1 strong {
+  font-size: 45px;
   color: #242B47;
-  font-family: : 'NanumSquare_acEB';
-  text-align: left;
-  padding-top: ;
-  padding-left: 550px;
 }
