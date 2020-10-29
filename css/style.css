@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  font-family: '카페24 고운밤', 'NanumSquare_ac', sans-serif;
+  font-family: 'cafe24 oneprettynight', 'NanumSquare_ac', sans-serif;
   background-image: url(../img/배경.jpg);
   background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ body {
 
 .title {
   color: #FFF;
-  font-family: : '카페24 고운밤';
+  font-family: : 'cafe24 oneprettynight';
   text-align: center;
   line-height: 45px;
 }
@@ -30,5 +30,5 @@ body {
 }
 
 .wave {
-  
+  text-align: center;
 }
