@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  font-family: 'cafe24 oneprettynight', 'NanumSquare_ac', sans-serif;
+  font-family: 'cafe24 oneprettynight','NanumBarunGothic', 'NanumSquare_ac', sans-serif;
   background-image: url(../img/배경.jpg);
   background-repeat: no-repeat;
 }
@@ -40,6 +40,10 @@ body {
   padding-left: 200px;
   color: #293660;
   font-family: : 'NanumSquare_ac';
+}
+
+.profile {
+
 }
 
 .Character_1 strong {
