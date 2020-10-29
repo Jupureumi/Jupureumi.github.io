@@ -1,3 +1,34 @@
+@charset "utf-8";
+
 body {
-  font-family: 'Spoqa Han Sans','Malgun Gothic','맑은 고딕','NanumSquare_ac','','돋움',dotum, sans-serif;
+  font-family: '카페24 고운밤', 'NanumSquare_ac', sans-serif;
+  background-image: url(../img/배경.jpg);
+  background-repeat: no-repeat;
+}
+
+.menu {
+  color: #FFF;
+  padding: 25px;
+  font-size: 45px;
+}
+
+.title {
+  color: #FFF;
+  font-family: : '카페24 고운밤';
+  text-align: center;
+  line-height: 45px;
+}
+
+.title span {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.title strong {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.wave {
+
 }
