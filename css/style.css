@@ -26,7 +26,7 @@ body {
 
 .title strong {
   font-size: 50px;
-  font-weight: normal;
+  line-height: 15px;
 }
 
 .wave {
@@ -49,12 +49,13 @@ body {
 .Character_1 strong {
   font-size: 45px;
   color: #242B47;
+
 }
 
 .media-body span {
   font-size: 28px;
   color: #293660;
-  line-height: 22px;
+  line-height: 36px;
 }
 
 .media-body {
@@ -68,7 +69,6 @@ body {
   line-height: 15px;
   padding-left: 0px;
   font-family: : 'NanumSquare_ac';
-
 }
 
 .container {
