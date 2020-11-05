@@ -2,7 +2,7 @@
 
 body {
   font-family: 'cafe24 oneprettynight','NanumBarunGothic', 'NanumSquare_ac', sans-serif;
-  background-image: url(../img/배경.jpg);
+  background-image: url(../img/bg.png);
   background-repeat: no-repeat;
 }
 
@@ -70,6 +70,7 @@ body {
   font-size: 25px;
   color: #242B47;
   line-height: 15px;
+  font-family: : 'NanumSquare_ac';
 }
 
 .text2 {
@@ -84,4 +85,5 @@ body {
   font-size: 25px;
   color: #242B47;
   line-height: 15px;
+  font-family: : 'NanumSquare_ac';
 }
