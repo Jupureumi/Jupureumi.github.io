@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  font-family: 'cafe24 oneprettynight','NanumBarunGothic', 'NanumSquare_ac', sans-serif;
+  font-family: 'NanumSquare_ac','NanumBarunGothic', sans-serif;
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ body {
 
 .title {
   color: #FFF;
-  font-family: : 'cafe24 oneprettynight';
+  font-family: 'NanumSquare_ac','NanumBarunGothic', sans-serif;
   text-align: center;
   line-height: 45px;
 }
@@ -38,9 +38,12 @@ body {
   text-align: left;
   padding-top: 190px;
   padding-left: 200px;
-  font-size: 45px;
   color: #242B47;
   font-family: : 'NanumSquare_ac';
+}
+
+.media h2 {
+  font-size: 45px;
 }
 
 .Character_1 strong {
@@ -51,7 +54,7 @@ body {
 .media-body span {
   font-size: 28px;
   color: #293660;
-  line-height: 15px;
+  line-height: 22px;
 }
 
 .media-body {
@@ -59,23 +62,25 @@ body {
   padding-top: 20px;
 }
 
-.text {
-  padding-left: 600px;
+.container  strong {
+  font-size: 25px;
+  color: #242B47;
+  line-height: 15px;
+  padding-left: 0px;
+  font-family: : 'NanumSquare_ac';
+
+}
+
+.container {
+  padding-left: 210px;
   font-size: 20px;
   color: #353535;
   line-height: 15px;
 }
 
-.text strong {
-  font-size: 25px;
-  color: #242B47;
-  line-height: 15px;
-  font-family: : 'NanumSquare_ac';
-}
-
 .text2 {
-  padding-left: 600px;
-  padding-top: 50px;
+  padding-left: 15px;
+  padding-top: 70px;
   font-size: 20px;
   color: #353535;
   line-height: 15px;
