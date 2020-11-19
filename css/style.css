@@ -13,20 +13,7 @@ body {
 }
 
 .title {
-  color: #FFF;
-  font-family: 'NanumSquare_ac','NanumBarunGothic', sans-serif;
   text-align: center;
-  line-height: 45px;
-}
-
-.title span {
-  font-size: 28px;
-  font-weight: normal;
-}
-
-.title strong {
-  font-size: 50px;
-  line-height: 15px;
 }
 
 .wave {
@@ -61,4 +48,12 @@ body {
 .media-body {
   padding-left: 100px;
   padding-top: 20px;
+}
+
+.profile {
+  padding-top: 50px;
+  background-position: 0px 270px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/ripples.png);
 }
