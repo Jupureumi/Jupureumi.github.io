@@ -73,21 +73,16 @@
           </div>
   </section>
 
-<section class="portfolio1">
-  <div class="portfolio">
-    <strong>
-      <h2>Portfolio</h2><br>
-      <h4>2019-2020</h4>
-    </strong>
-    <br>
-    <span>Wed, Mobile, Character Design & illust, icon portfolio </span>
-    <p></p><button type="button" class="btn btn-primary btn-lg">portfolio</button>
+<div class="portfolio">
+  <strong><h2>Portfolio</h2><br>
+    <h4>2019-2020</h4></strong>
+  <br>
+  <span>Wed, Mobile, Character Design & illust, icon portfolio </span>
 
-  </div>
-  </section>
 
-<section class="about">
-  <h2>About</h2>
+  <!-- media -->
+
+
 
 </body>
 
