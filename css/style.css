@@ -62,33 +62,3 @@ body {
   padding-left: 100px;
   padding-top: 20px;
 }
-
-.container  strong {
-  font-size: 25px;
-  color: #242B47;
-  line-height: 15px;
-  padding-left: 0px;
-  font-family: : 'NanumSquare_ac';
-}
-
-.container {
-  padding-left: 210px;
-  font-size: 20px;
-  color: #353535;
-  line-height: 15px;
-}
-
-.text2 {
-  padding-left: 15px;
-  padding-top: 70px;
-  font-size: 20px;
-  color: #353535;
-  line-height: 15px;
-}
-
-.text2 strong {
-  font-size: 25px;
-  color: #242B47;
-  line-height: 15px;
-  font-family: : 'NanumSquare_ac';
-}
