@@ -2,28 +2,47 @@
 
 body {
   font-family: 'NanumSquare_ac', 'NanumBarunGothic', sans-serif;
+}
+
+.menuicon {
+  position: fixed;
+  padding-left: 35px;
+  padding-top: 40px;
+  width: 70px;
+  height: 100px;
+  z-index: 999;
+}
+
+.nav {
+  font-size: 30px;
+  margin: 25px;
+}
+
+.secondmenu span {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.home {
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
 }
 
-.menu {
-  color: #FFF;
-  padding: 25px;
-  font-size: 45px;
-}
-
 .title {
+  margin-top: -120px;
   text-align: center;
+
 }
 
 .wave {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .media {
   text-align: left;
-  padding-top: 190px;
+  margin-top: -120px;
   padding-left: 200px;
   color: #242B47;
   font-family: : 'NanumSquare_ac';
@@ -47,20 +66,19 @@ body {
 
 .media-body {
   padding-left: 100px;
-  padding-top: 20px;
+  padding-top: -200px;
 }
 
 .profile {
-  padding-top: 80px;
-  padding-bottom: 300px;
-  background-position: 0px 280px;
+  margin-top: -100px;
+  background-position: 0px 170px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(../img/ripples.png)
 }
 
 .portfolio h2 {
-  padding-top: 80px;
+  margin-top: -100px;
   padding-left: 200px;
   font-size: 45px;
   font-weight: bolder;
@@ -69,6 +87,7 @@ body {
 
 .portfolio h4 {
   padding-left: 200px;
+
   font-size: 28px;
   color: #293660;
   line-height: 20px;
@@ -76,6 +95,7 @@ body {
 }
 
 .portfolio span {
+  margin-top: -900px;
   padding-left: 200px;
   font-size: 25px;
   color: #343A49;
@@ -107,17 +127,15 @@ body {
 }
 
 .portfolio1 {
-  padding-top: 80px;
-  padding-bottom: 300px;
-  background-position: 1130px 220px ;
+  margin-top: -180px;
+  background-position: 1130px 330px;
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(../img/icon.png)
 }
 
 .about h2 {
-  padding-top: 80px;
-  padding-bottom: 18px;
+  padding-bottom: 22px;
   font-size: 45px;
   font-weight: bolder;
   line-height: 15px;
@@ -125,6 +143,11 @@ body {
 
 .about {
   padding-left: 200px;
+  margin-top: -50px;
+}
+
+.introduction {
+
 }
 
 .about span {
@@ -132,4 +155,57 @@ body {
   color: #343A49;
   line-height: 35px;
   font-weight: bold;
+}
+
+.about p {
+  padding-top: 40px;
+}
+
+.contact h2 {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-size: 45px;
+  font-weight: bolder;
+  line-height: 15px;
+  margin-top: -300px;
+}
+
+.contact {
+  padding-left: 200px;
+  background-position: 200px 350px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/character_2.png)
+}
+
+.contact i {
+  padding-right: 15px;
+}
+
+.contact span {
+  font-size: 31px;
+  color: #343A49;
+  line-height: 47px;
+  font-weight: bold;
+}
+
+.sidemenu {
+  position: fixed;
+  left: -550px;
+  top: 0;
+  bottom: 0;
+  width: 550px;
+  background-color: #D5E6EF;
+  -webkit-transform: translate(0px, 0) translateZ(0px);
+  -ms-transform: translate(0px, 0) translateZ(0px);
+  transform: translate(0px, 0) translateZ(0px);
+  -webkit-transition: 200ms cubic-bezier(0.1, .57, .1, 1);
+  transition: 250ms cubic-bezier(0.1, .57, .1, 1);
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  padding: 50px;
+  z-index: 1000
+}
+
+.sidemenu.active {
+  left: 0;
 }
