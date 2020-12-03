@@ -30,14 +30,28 @@ body {
 }
 
 .title {
-  margin-top: -120px;
+  margin-top: 125px;
   text-align: center;
-
 }
 
-.wave {
+.title h2 {
+  margin-top: 140px;
+  font-size: 45px;
+  font-weight: bolder;
+  line-height: 15px;
+}
+
+.title h4 {
+  font-size: 28px;
+  color: #293660;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+
+.character_img {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 98px;
 }
 
 .media {
@@ -105,9 +119,9 @@ body {
 
 .portfolio button {
   text-align: center;
-  margin-left: 200px;
-  margin-right: 35px;
-  margin-top: 35px;
+  margin-left: 630px;
+  margin-right: -610px;
+  margin-top: 220px;
   margin-bottom: auto;
 }
 
@@ -124,14 +138,6 @@ body {
 .btn-primary:hover {
   background-color: #010E26;
   border-color: #010E26;
-}
-
-.portfolio1 {
-  margin-top: -180px;
-  background-position: 1130px 330px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-image: url(../img/icon.png)
 }
 
 .about h2 {
